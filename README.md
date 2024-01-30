@@ -2,6 +2,8 @@
 
 A simple web application to estimate the average reading time for a given text.
 
+![Alt text](image.png)
+
 ## Overview
 
 This project provides a straightforward tool to calculate the estimated reading time for a piece of text. Users can input their text into the provided textarea, and the application will display an estimation of the time it would take an average reader to read the content.
