@@ -6,19 +6,32 @@
     <title>Calculate Reading Time</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="reading-avg-wrapper">
-    <h1>Calculate Reading Time</h1>
-  <h2>ART <small>(Average reading time)</small></h2>
-  <form class="reading-avg">
-    <textarea id="word_count" placeholder="Text goes here..."></textarea>
-    <div class="info-wrapper"></div>
-    <div class="controls">
-      <button type="submit" class="btn btn-primary">
-        Estimate Reading Time
-      </button>
-      <button type="reset" class="btn btn-secondary">Reset</button>
-    </div>
-  </form>
-    
+<script type="module" src="./script.js"></script>
+<body>
+    <article class="reading-avg-wrapper">
+        <h1>Calculate Reading Time</h1>
+        <h2>ART <small>(Average reading time)</small></h2>
+        <form class="reading-avg">
+          <textarea id="word_count" placeholder="Text goes here..."></textarea>
+          <div class="info-wrapper"></div>
+          <div class="controls">
+            <button type="submit" class="btn btn-primary">
+              Estimate Reading Time
+            </button>
+            <button type="reset" class="btn btn-secondary">Reset</button>
+          </div>
+        </form>
+      </article>
+      <!-- Footer Is Not A Must -->
+      <footer class="footer">
+        <div>
+          <p>&copy; 2024: Created by Prem Prakash </p>
+          
+        </div>
+        <p>
+          **Calculation is based on the average reading speed that around 200
+          words per minute (wpm).
+        </p>
+      </footer>
 </body>
 </html>
