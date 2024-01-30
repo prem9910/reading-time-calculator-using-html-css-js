@@ -2,7 +2,7 @@
 
 A simple web application to estimate the average reading time for a given text.
 
-<!-- ![Alt text](image.png) -->
+![Alt text](image.png)
 
 ## Overview
 
